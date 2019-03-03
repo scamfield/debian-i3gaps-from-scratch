@@ -41,8 +41,8 @@ rsync -a .fonts ~/
 fc-cache
 
 ### infinality font rendering (osx option)
-sudo dpkg -i infinality/libfreetype-infinality6_2.4.9-3_amd64.deb infinality/freetype-infinality_2.4.9-3_all.deb infinality/fontconfig-infinality_1-2_all.deb
-sudo bash /etc/fonts/infinality/infctl.sh setstyle osx
+#sudo dpkg -i infinality/libfreetype-infinality6_2.4.9-3_amd64.deb infinality/freetype-infinality_2.4.9-3_all.deb infinality/fontconfig-infinality_1-2_all.deb
+#sudo bash /etc/fonts/infinality/infctl.sh setstyle osx
 
 ### gaps installer
 chmod +x sh/gaps.sh
